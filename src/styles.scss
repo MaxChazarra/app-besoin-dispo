@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+//@import "../node_modules/uikit/src/scss/uikit-theme.scss";
+
+$sopra-steria-color-primary: #CF000F;
+$sopra-steria-color-white: #EEEEEE;
+$sopra-steria-color-orange: #FFC107;
+$sopra-steria-color-blue: #19B5FE;
+$sopra-steria-color-grey: #EEEEEE;
+
+$card-default-background: $sopra-steria-color-grey;
+$navbar-background: $sopra-steria-color-primary;
+$navbar-nav-item-color: $sopra-steria-color-white;
+// $navbar-nav-item-font-size: $global-small-font-size !default;
+// $navbar-nav-item-font-family: $global-font-family !default;
+$navbar-nav-item-hover-color: $sopra-steria-color-orange;
+$navbar-nav-item-onclick-color: $sopra-steria-color-orange;
+$navbar-nav-item-active-color: $sopra-steria-color-orange;
+
+$button-primary-background: $sopra-steria-color-primary;
+$button-primary-color: $sopra-steria-color-white;
+$button-primary-hover-background: darken($button-primary-background, 5%) !default;
+$button-primary-hover-color: $sopra-steria-color-white;
+$button-primary-active-background: darken($button-primary-background, 10%) !default;
+$button-primary-active-color: $sopra-steria-color-white;
+
+$button-secondary-background: $sopra-steria-color-orange;
+$button-secondary-color: $sopra-steria-color-white;
+$button-secondary-hover-background: darken($button-secondary-background, 5%) !default;
+$button-secondary-hover-color: $sopra-steria-color-white;
+$button-secondary-active-background: darken($button-secondary-background, 10%) !default;
+$button-secondary-active-color: $sopra-steria-color-white;
+
+
+$subnav-pill-item-background: $sopra-steria-color-grey !default;
+$subnav-pill-item-hover-background: darken($subnav-pill-item-background, 10%);
+$subnav-pill-item-onclick-background: darken($subnav-pill-item-background, 10%);
+$subnav-pill-item-active-background: $sopra-steria-color-orange !default;
+$subnav-pill-item-active-color: $sopra-steria-color-white;
+
+$table-hover-row-background: $sopra-steria-color-blue;
+$table-row-active-background: $sopra-steria-color-blue;
+
+$form-background: darken($sopra-steria-color-grey,10%);
+
+@import "../node_modules/uikit/src/scss/variables.scss";
+@import "../node_modules/uikit/src/scss/mixins.scss";
+@import "../node_modules/uikit/src/scss/uikit.scss";

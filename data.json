@@ -1,0 +1,33 @@
+{
+  "markets": [
+    {
+      "name": "TEL",
+      "resp": "Laurent BEAUBIAT",
+      "id": "7f0535e8-bc2b-426a-8959-fc3aa1337baf"
+    },
+    {
+      "name": "APS",
+      "resp": "Vincent POIX",
+      "id": "0dc0fa4f-4118-4d97-a5dd-93830c3f23ec"
+    },
+    {
+      "name": "ITA",
+      "resp": "Max CHAZARRA",
+      "id": "acf63c3f-8108-4b0b-9eed-403f6c44f0b1"
+    }
+  ],
+  "customers": [
+    {
+      "name": "OBS",
+      "marketId": "7f0535e8-bc2b-426a-8959-fc3aa1337baf"
+    },
+    {
+      "name": "RSI",
+      "marketId": "0dc0fa4f-4118-4d97-a5dd-93830c3f23ec"
+    },
+    {
+      "name": "TAS",
+      "marketId": "acf63c3f-8108-4b0b-9eed-403f6c44f0b1"
+    }
+  ]
+}
